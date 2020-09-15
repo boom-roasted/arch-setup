@@ -194,8 +194,16 @@ reboot
 # along the lines of the default card or device (or both) was wrong.
 # Maybe it was defaulting to sending audio out through hdmi?
 
-# Anways, I just had to make this file have this info
-# TODO add file and info
+# Anways, I just had to make sure that the default card was the PCH
+# View all playback hardware devices:
+aplay -l
+
+# in ~/.asoundrc
+defaults.pcm.card 1
+defaults.clt.card 1
+
+# Set volume and stuff with alsamixer
+alsamixer
 
 # --------------------------------
 # Internet
