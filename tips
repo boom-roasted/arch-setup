@@ -1,0 +1,8 @@
+# Helpful tips and things I want to remember
+
+# Pasting in vim
+:set paste
+i
+CTRL+SHIFT+V
+
+
