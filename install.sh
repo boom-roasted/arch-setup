@@ -214,5 +214,8 @@ alsamixer
 # on the installation image) should be good enough for me. So. I tried
 # to use that. Took a bit of configuration though.
 
-# TODO add configuration and what files had to be edited
+# Seems like all that was necessary was making sure that the name resolution
+# service had all the right Domain Name Services (DNS). For me,
+# I just had to make sure that it included 1.1.1.1 (see etc/resolv.conf*)
+1.1.1.1
 
