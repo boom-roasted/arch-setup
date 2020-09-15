@@ -107,6 +107,9 @@ mount /dev/sda2 /mnt/boot
 mkdir /mnt/boot/efi
 mount /dev/sda1 /mnt/boot/efi
 
+mkdir /mnt/home
+mount /dev/sda3 /mnt/home
+
 # You may want to edit the mirrorlist to get better package
 # download speeds. Just put some physically close mirrors near
 # the top.
