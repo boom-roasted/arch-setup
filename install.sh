@@ -180,3 +180,31 @@ swapoff -a
 
 # Reboot and pray
 reboot
+
+# -------------------------------------------------
+# Nice you made it
+# Now you can work on making all the things work
+# -------------------------------------------------
+
+# --------------------------------
+# Audio
+# --------------------------------
+
+# I had trouble getting audio to work, and it ended up being something
+# along the lines of the default card or device (or both) was wrong.
+# Maybe it was defaulting to sending audio out through hdmi?
+
+# Anways, I just had to make this file have this info
+# TODO add file and info
+
+# --------------------------------
+# Internet
+# --------------------------------
+
+# Not sure why but I felt a bit like a purist or something so I didn't
+# want a network manager but instead felt like iwd (which we used
+# on the installation image) should be good enough for me. So. I tried
+# to use that. Took a bit of configuration though.
+
+# TODO add configuration and what files had to be edited
+
