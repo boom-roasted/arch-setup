@@ -5,4 +5,10 @@
 i
 CTRL+SHIFT+V
 
-
+# You'll probably want to use ssh with git...
+# generate ssh key with the following command
+# and paste the public key into the 'add ssh'
+# field in git
+ssh-keygen
+cat ~/.ssh/id_rsa.pub # copy output to clipboard
+ 
