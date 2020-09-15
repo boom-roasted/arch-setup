@@ -20,26 +20,20 @@ compinit
 # Enable autocomplection of aliases
 setopt COMPLETE_ALIASES
 
+# Enable cd-ing without cd
+setopt auto_cd
+
 # Use autocompletion with an arrow key interface.
 # Press tab twice to activate
 zstyle ':completion:*' menu select
 
-# Only the past commands matching the current line up to the current
-# cursor position will be shown when pressing the `up` and `down` keys
-# autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
-# zle -N up-line-or-beginning-search
-# zle -N down-line-or-beginning-search
-
-# [[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
-# [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
-
 # Aliases
 alias ls="ls --color"
 alias zshconfig="vim ~/.zshrc"
+alias zshsource="source ~/.zshrc"
 
 # Preferred Editor
 export EDITOR='vim'
-
 
 # Make history better (match up until cursor)
 autoload -U up-line-or-beginning-search
