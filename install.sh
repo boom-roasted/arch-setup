@@ -58,7 +58,7 @@ sda                  8:0    0 238.5G  0 disk
   └─main-encrypted 254:0    0 237.7G  0 crypt 
     ├─arch-swap    254:1    0   512M  0 lvm   [SWAP]
     ├─arch-root    254:2    0    64G  0 lvm   /
-    └─arch-home    254:3    0 173.2G  0 lvm   
+    └─arch-home    254:3    0 173.2G  0 lvm   /home 
 
 > gdisk /dev/sda
 # This was created with gdisk. Use the help menu of gdisk
