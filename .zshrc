@@ -23,6 +23,9 @@ setopt COMPLETE_ALIASES
 # Enable cd-ing without cd
 setopt auto_cd
 
+# Enable automatic directory stack (use popd to go back)
+setopt autopushd
+
 # Use autocompletion with an arrow key interface.
 # Press tab twice to activate
 zstyle ':completion:*' menu select
